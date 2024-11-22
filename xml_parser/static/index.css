@@ -1,0 +1,34 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #2e2d33;
+  color: #eee;
+}
+
+h1 {
+  text-align: center;
+  margin: 5rem 2rem 1.25rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
